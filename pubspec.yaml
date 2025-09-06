@@ -1,0 +1,67 @@
+name: ai_perfume_recommender
+description: "An intelligent perfume recommendation app using AI facial analysis and personality recognition."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core dependencies
+  cupertino_icons: ^1.0.8
+  
+  # Image handling
+  image_picker: ^1.0.4
+  
+  # HTTP requests
+  http: ^1.1.0
+  
+  # State management
+  provider: ^6.0.5
+  
+  # Local storage
+  shared_preferences: ^2.2.2
+  
+  # JSON handling
+  json_annotation: ^4.8.1
+  
+  # URL launcher for opening perfume links
+  url_launcher: ^6.2.1
+  
+  # Loading animations
+  flutter_spinkit: ^5.2.0
+  
+  # Permissions
+  permission_handler: ^11.0.1
+  
+  # Environment variables
+  flutter_dotenv: ^5.1.0
+  
+  # Supabase dependencies
+  supabase_flutter: ^2.5.6
+  
+  # Google Generative AI (Gemini)
+  google_generative_ai: ^0.4.3
+  
+  # Cryptography for secure password hashing
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  
+  # JSON serialization
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
